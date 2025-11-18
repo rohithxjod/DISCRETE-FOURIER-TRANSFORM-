@@ -3,12 +3,15 @@
 # AIM: 
 
 # To Obtain DFT and FFT of a given sequence in SCILAB. 
+ To Obtain DFT and FFT of a given sequence in SCILAB. 
 
 # APPARATUS REQUIRED: 
 PC installed with SCILAB. 
 
 # PROGRAM: 
 // DISCRETE FOURIER TRANSFORM 
+1.DIRECT METHOD
+```
 clc; 
 clear; 
 xn=[1 1 1 1 0 0 0 0]; 
@@ -42,9 +45,9 @@ plot2d3(K1,angle);
 xlabel('frequency(Hz)'); 
 ylabel('Phase'); 
 title('Phase spectrum'); 
-
-2.FFT METHOD
-
+```
+2.FFT Method
+```
 clear; 
 clc; 
 close; 
@@ -80,13 +83,17 @@ plot2d3(n2,y)
 xlabel('Time n'); 
 ylabel('Amplitude'); 
 title('Inverse FFT OF X(K)'); 
+```
 
 # OUTPUT: 
-1.DIRECT METHOD
-<img width="1037" height="550" alt="Screenshot 2025-11-18 102335" src="https://github.com/user-attachments/assets/41922ef8-a700-45f3-9ac9-18b2f5323f7e" />
+## 1.Direct Method
+<img width="1919" height="1016" alt="image" src="https://github.com/user-attachments/assets/49de8c8e-f1d6-4659-9b88-56ae6ffbc356" />
 
-2.FFT METHOD
-<img width="1041" height="547" alt="Screenshot 2025-11-18 102346" src="https://github.com/user-attachments/assets/52ae72b0-1680-422b-807d-c31c000886af" />
+## 2.FFT Method
+<img width="1918" height="1009" alt="image" src="https://github.com/user-attachments/assets/47baf80a-c35e-4747-9ccc-92ba82a0c634" />
+
+
+
 
 # RESULT: 
 COMPUTATION OF DFT USING DIRECT AND FFT METHOD ARE EXECUTED SUCCESSFULLY IN SCILAB
